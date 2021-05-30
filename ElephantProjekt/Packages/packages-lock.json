@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "file:E:/Unity/2019.4.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.cinemachine": {
       "version": "2.6.5",
       "depth": 0,
