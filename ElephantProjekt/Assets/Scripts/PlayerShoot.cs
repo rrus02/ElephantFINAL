@@ -2,7 +2,7 @@
 
 public class PlayerShoot : MonoBehaviour
 {
-    public float fireRate = 0.2f; //mozna dac wiecej jak chcemy szybszy firerate chyba
+    public float fireRate = 0.04f; //mozna dac mniejsza wartosc jak chcemy wiekszy firerate
     public Transform firingPoint;
     public GameObject bulletPrefab;
 

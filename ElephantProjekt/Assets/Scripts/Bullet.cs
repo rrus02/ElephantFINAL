@@ -2,7 +2,7 @@
 
 public class Bullet : MonoBehaviour
 {
-    public float bulletSpeed = 15f;
+    public float bulletSpeed = 70f;
     public float bulletDamage = 10f;
     public Rigidbody2D rb;
 
