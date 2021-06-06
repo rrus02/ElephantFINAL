@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator anim;
 
-    public float jumpForce = 20f;
+    public float jumpForce = 15f;
     public Transform feet;
     public LayerMask groundLayers;
 
