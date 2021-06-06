@@ -1,29 +1,31 @@
 ﻿using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 
 
 public class EnemySpike : MonoBehaviour
 {
-
     public float speed = 2f;
 
     public Rigidbody2D rb;
 
-    public Transform groundCheck;
+    public LayerMask groundLayers;
 
-    bool isTurnedOn = true;
+    public Transform groundCheck;
 
     RaycastHit2D hit;
 
-    public LayerMask groundLayers;
+    bool isTurnedOn = true;
+
 
 
     private void Update()
     {
 
-        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f);
+        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
 
     }
 
@@ -38,13 +40,13 @@ public class EnemySpike : MonoBehaviour
             if (isTurnedOn)
             {
 
-                rb.velocity = new Vector2(speed, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, +rb.velocity.y);
 
             }
             else
             {
 
-                rb.velocity = new Vector2(-speed, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, -rb.velocity.y);
 
             }
 
