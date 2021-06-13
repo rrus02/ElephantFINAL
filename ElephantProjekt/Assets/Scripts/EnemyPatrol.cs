@@ -17,7 +17,7 @@ public class EnemyPatrol : MonoBehaviour
 
 
 
-    public Transform groundCheck;
+    public Transform GroundCheck;
 
 
 
@@ -32,7 +32,7 @@ public class EnemyPatrol : MonoBehaviour
     private void Update()
     {
 
-        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
+        hit = Physics2D.Raycast(GroundCheck.position, -transform.up, 1f, groundLayers);
 
     }
 
