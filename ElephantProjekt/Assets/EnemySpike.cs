@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 
-public class EnemyPatrol : MonoBehaviour
+public class EnemySpike : MonoBehaviour
 {
     public float speed = 2f;
 
@@ -14,25 +14,18 @@ public class EnemyPatrol : MonoBehaviour
 
     public LayerMask groundLayers;
 
-<<<<<<< HEAD
-
-
-    public Transform GroundCheck;
-=======
     public Transform groundCheck;
->>>>>>> 620dc73d949013a49bd8fb2a32b67214c5dc1ab9
-
-    bool isFacingRight = true;
 
     RaycastHit2D hit;
 
+    bool isTurnedOn = true;
 
 
 
     private void Update()
     {
 
-        hit = Physics2D.Raycast(GroundCheck.position, -transform.up, 1f, groundLayers);
+        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
 
     }
 
@@ -44,16 +37,16 @@ public class EnemyPatrol : MonoBehaviour
         if (hit.collider != false)
         {
 
-            if (isFacingRight)
+            if (isTurnedOn)
             {
 
-                rb.velocity = new Vector2(speed, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, +rb.velocity.y);
 
             }
             else
             {
 
-                rb.velocity = new Vector2(-speed, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, -rb.velocity.y);
 
             }
 
@@ -61,7 +54,7 @@ public class EnemyPatrol : MonoBehaviour
         else
         {
 
-            isFacingRight = !isFacingRight;
+            isTurnedOn = !isTurnedOn;
 
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
 
