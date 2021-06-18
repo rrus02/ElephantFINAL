@@ -33,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
         if (Mathf.Abs(mx) > 0.05f)
         {
             anim.SetBool("isRunning", true);
-        } else
+        }
+        else
         {
             anim.SetBool("isRunning", false);
         }
@@ -42,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
             isFacingRight = true;
-        } else if (mx < 0f)
+        }
+        else if (mx < 0f)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
             isFacingRight = false;
@@ -56,13 +58,14 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = movement;
     }
-     void Jump() {
+    void Jump()
+    {
         Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
 
         rb.velocity = movement;
     }
 
-    public bool IsGrounded ()
+    public bool IsGrounded()
     {
         Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.5f, groundLayers);
 

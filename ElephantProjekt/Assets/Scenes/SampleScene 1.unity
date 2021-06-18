@@ -121,6 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!1 &29648690
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +266,13 @@ RectTransform:
   m_AnchoredPosition: {x: 550.4, y: 252.4}
   m_SizeDelta: {x: 111.937256, y: 20.988235}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 --- !u!1 &67311908
+=======
+--- !u!1 &97199950
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,23 +280,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   - component: {fileID: 67311911}
   - component: {fileID: 67311910}
   - component: {fileID: 67311909}
   m_Layer: 8
   m_Name: Platform (36)
+=======
+  - component: {fileID: 97199953}
+  - component: {fileID: 97199952}
+  - component: {fileID: 97199951}
+  m_Layer: 8
+  m_Name: Platform (6)
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!61 &67311909
+=======
+--- !u!61 &97199951
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 67311908}
+=======
+  m_GameObject: {fileID: 97199950}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -309,13 +332,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!212 &67311910
+=======
+--- !u!212 &97199952
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 67311908}
+=======
+  m_GameObject: {fileID: 97199950}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -359,12 +390,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!4 &67311911
+=======
+--- !u!4 &97199953
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 67311908}
   m_LocalRotation: {x: -0, y: -0, z: 0.900335, w: 0.4351976}
   m_LocalPosition: {x: 405.56805, y: 3.8055925, z: 0}
@@ -373,6 +409,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 128.404}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!1 &90801571
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +532,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+=======
+  m_GameObject: {fileID: 97199950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.6, y: 29.6, z: 0}
+  m_LocalScale: {x: 21.400818, y: 1.0766039, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 --- !u!1 &115098656
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +650,7 @@ Transform:
   m_LocalScale: {x: 15.532181, y: 1.0766039, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121122802
 GameObject:
@@ -904,9 +953,15 @@ Transform:
   m_LocalScale: {x: 21.400818, y: 0.14512911, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.06299}
 --- !u!1 &275977596
+=======
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &343295800
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1128,8 +1183,52 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!61 &352976069
 BoxCollider2D:
+=======
+--- !u!114 &761833932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761833931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de36c50d4afc794d844feb475be6584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+  rb: {fileID: 761833933}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  groundCheck: {fileID: 721238951}
+--- !u!50 &761833933
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761833931}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &761833934
+CircleCollider2D:
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1216,6 +1315,7 @@ Transform:
   m_LocalScale: {x: 21.400818, y: 1.0766039, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.343}
 --- !u!1 &380408384
@@ -1295,6 +1395,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 380408384}
   m_CullTransparentMesh: 0
 --- !u!1 &420298415
+=======
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &939584998
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1402,7 +1507,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 217.747}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!1 &489258951
+=======
+--- !u!1 &450360646
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1410,22 +1519,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   - component: {fileID: 489258952}
   - component: {fileID: 489258954}
   - component: {fileID: 489258953}
   m_Layer: 8
   m_Name: Text (TMP)
+=======
+  - component: {fileID: 450360647}
+  m_Layer: 0
+  m_Name: RoofCheck
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!224 &489258952
 RectTransform:
+=======
+--- !u!4 &450360647
+Transform:
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 489258951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1535,6 +1656,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489258951}
   m_CullTransparentMesh: 0
+=======
+  m_GameObject: {fileID: 450360646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.003, y: 0.187, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1209136320}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 --- !u!1 &529424426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,10 +1766,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.073006, y: -0.47853756, z: -10}
+  m_LocalScale: {x: 1, y: 2, z: 1}
+=======
   m_GameObject: {fileID: 529424426}
   m_LocalRotation: {x: -0.9999296, y: 0.00051495695, z: 0.011861359, w: 0.000006108613}
   m_LocalPosition: {x: 224.47, y: 4.21, z: 0.62}
   m_LocalScale: {x: 2.0098453, y: 1.0766039, z: 1}
+>>>>>>> c231e095bc0304bc36156f4a919c0d3d967a5043
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 26
@@ -2477,7 +2615,7 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 256
-  groundCheck: {fileID: 721238951}
+  GroundCheck: {fileID: 721238951}
 --- !u!50 &761833933
 Rigidbody2D:
   serializedVersion: 4
@@ -2573,7 +2711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761833931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.81, y: 0.9, z: 0}
+  m_LocalPosition: {x: -8.81, y: 0.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 721238951}
@@ -3198,7 +3336,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_LocalPosition: {x: 15.169134, y: 13.248074, z: -10}
+=======
+  m_LocalPosition: {x: 14.986887, y: 13.248074, z: -10}
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_LocalScale: {x: 3.5616462, y: 2.4016864, z: 6.8727}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3454,6 +3596,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: -0.001, y: -178.641, z: 91.90301}
+--- !u!1 &1022947833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022947834}
+  m_Layer: 0
+  m_Name: RightCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022947834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022947833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.106, y: -0.004, z: 0}
+  m_LocalScale: {x: 1, y: 1.1875, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1209136320}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043019810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4556,6 +4728,152 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.41901}
+--- !u!1 &1209136316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1209136320}
+  - component: {fileID: 1209136319}
+  - component: {fileID: 1209136318}
+  - component: {fileID: 1209136317}
+  - component: {fileID: 1209136321}
+  m_Layer: 0
+  m_Name: EnemyFlying
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1209136317
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209136316}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 0, g: 0.18836069, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!70 &1209136318
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209136316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00076120446, y: -0.051763978}
+  m_Size: {x: 0.15890265, y: 0.3843681}
+  m_Direction: 0
+--- !u!50 &1209136319
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209136316}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!4 &1209136320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209136316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.03, y: -0.56, z: 0}
+  m_LocalScale: {x: 10.936903, y: 4.521455, z: 1}
+  m_Children:
+  - {fileID: 1022947834}
+  - {fileID: 450360647}
+  - {fileID: 1380049189}
+  m_Father: {fileID: 0}
+  m_RootOrder: 62
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1209136321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209136316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280d129ca6df0047bcdd26df0c92303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 600
+  circleRadius: 0.25
+  rightCheck: {fileID: 1022947833}
+  roofCheck: {fileID: 450360646}
+  groundCheck: {fileID: 1380049188}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  dirX: 1
+  dirY: 0.25
 --- !u!1 &1241303073
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,8 +5448,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1307813288}
-  - component: {fileID: 1307813287}
   - component: {fileID: 1307813286}
+  - component: {fileID: 1307813287}
   m_Layer: 8
   m_Name: Ground
   m_TagString: Ground
@@ -5444,6 +5762,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380049188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380049189}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380049189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380049188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.006, y: -0.308, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1209136320}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395943790
 GameObject:
@@ -6725,10 +7073,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 1684751089}
   m_LocalRotation: {x: -0, y: -0, z: 0.7030391, w: 0.7111513}
   m_LocalPosition: {x: 222.69, y: 16.77, z: 0}
   m_LocalScale: {x: 21.400818, y: 1.0766039, z: 1}
+=======
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.750973, y: -0.47853756, z: -10}
+  m_LocalScale: {x: 1, y: 2, z: 1}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
@@ -6833,6 +7188,177 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &997320548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997320553}
+  - component: {fileID: 997320552}
+  - component: {fileID: 997320551}
+  - component: {fileID: 997320550}
+  - component: {fileID: 997320549}
+  m_Layer: 0
+  m_Name: SpikeEnemy
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &997320549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997320548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396428a837b664846b8a7bd1bf4f8598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  rb: {fileID: 997320550}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  groundCheck: {fileID: 1663734263}
+--- !u!50 &997320550
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997320548}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &997320551
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997320548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!212 &997320552
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997320548}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: faceeed66da61c142a76119ca8ebf1e1, type: 3}
+  m_Color: {r: 0.41568625, g: 0.47630316, b: 0.94509804, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &997320553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997320548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.97, y: -3.23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1663734263}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1307813285
+=======
   m_GameObject: {fileID: 1705647948}
   m_LocalRotation: {x: -0, y: -0, z: 0.7030391, w: 0.7111513}
   m_LocalPosition: {x: 203.8, y: 17, z: 0}
@@ -6842,6 +7368,7 @@ Transform:
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.343}
 --- !u!1 &1746788491
+>>>>>>> c231e095bc0304bc36156f4a919c0d3d967a5043
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6947,9 +7474,15 @@ Transform:
   m_LocalScale: {x: 2.6860168, y: 108.38918, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 206.13799}
 --- !u!1 &1768674192
+=======
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1421572984
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6957,9 +7490,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   - component: {fileID: 1768674195}
   - component: {fileID: 1768674194}
   - component: {fileID: 1768674193}
+=======
+  - component: {fileID: 1421572987}
+  - component: {fileID: 1421572986}
+  - component: {fileID: 1421572985}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Layer: 8
   m_Name: Platform (43)
   m_TagString: Ground
@@ -6967,13 +7506,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!61 &1768674193
+=======
+--- !u!61 &1421572985
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 1768674192}
+=======
+  m_GameObject: {fileID: 1421572984}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -6993,13 +7540,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!212 &1768674194
+=======
+--- !u!212 &1421572986
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 1768674192}
+=======
+  m_GameObject: {fileID: 1421572984}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -7043,12 +7598,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
 --- !u!4 &1768674195
+=======
+--- !u!4 &1421572987
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_GameObject: {fileID: 1768674192}
   m_LocalRotation: {x: -0, y: -0, z: 0.7030391, w: 0.7111513}
   m_LocalPosition: {x: 468.7, y: 28.5, z: 0}
@@ -7057,7 +7617,126 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.343}
+--- !u!1 &1784819897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1784819900}
+  - component: {fileID: 1784819899}
+  - component: {fileID: 1784819898}
+  m_Layer: 8
+  m_Name: SpikeEnemy
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1784819898
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784819897}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1784819899
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784819897}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7714cbda9c4ae8540add8b0c3c4cddab, type: 3}
+  m_Color: {r: 1, g: 0, b: 0.06719589, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1784819900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784819897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.48, y: -4.92, z: 0}
+  m_LocalScale: {x: 13.531795, y: 1.1785364, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 61
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844740861
+=======
+  m_GameObject: {fileID: 1421572984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.34, y: 5.1, z: 0}
+  m_LocalScale: {x: 15.532181, y: 1.0766039, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1564655591
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7163,7 +7842,149 @@ Transform:
   m_LocalScale: {x: 21.400818, y: 1.0766039, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_RootOrder: 18
+=======
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1663734262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663734263}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663734263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663734262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 997320553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1827803224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827803227}
+  - component: {fileID: 1827803226}
+  - component: {fileID: 1827803225}
+  m_Layer: 8
+  m_Name: Platform (5)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1827803225
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827803224}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1827803226
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827803224}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7714cbda9c4ae8540add8b0c3c4cddab, type: 3}
+  m_Color: {r: 0.23762906, g: 0.5660378, b: 0.24317849, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1827803227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827803224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.9, y: 11.5, z: 0}
+  m_LocalScale: {x: 21.400818, y: 1.0766039, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1974521729 stripped
 Transform:
@@ -7232,8 +8053,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994576542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_LocalPosition: {x: 15.1691, y: 30.300003, z: -10}
+=======
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
+  m_LocalPosition: {x: 14.986834, y: 30.300003, z: -10}
+=======
+<<<<<<< HEAD
+  m_LocalPosition: {x: 7.0216866, y: -0.4785471, z: -10}
+=======
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
+  m_LocalPosition: {x: 13.899998, y: 30.300003, z: -10}
+>>>>>>> 620dc73d949013a49bd8fb2a32b67214c5dc1ab9:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
+>>>>>>> f7fa3bfbc5a7cd7db5ddf3702116fe9c86a88ff6:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_LocalScale: {x: 2451.5361, y: 313.52, z: 234.40747}
+=======
+  m_LocalPosition: {x: 7.131592, y: -0.4785471, z: -10}
+>>>>>>> c231e095bc0304bc36156f4a919c0d3d967a5043
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Children:
   - {fileID: 139706044}
   m_Father: {fileID: 0}
@@ -7714,6 +8552,7 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 2134838315}
     m_ColliderPaths:
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
     - - X: 15304530651
         Y: -212178992
       - X: 15304530651
@@ -7728,6 +8567,22 @@ CompositeCollider2D:
       - {x: 1530.453, y: 42.948124}
       - {x: -248.69908, y: 42.948063}
       - {x: -248.69904, y: -21.2179}
+=======
+    - - X: 1430246107
+        Y: -285322624
+      - X: 1430246107
+        Y: 577534592
+      - X: -232415472
+        Y: 577534299
+      - X: -232415179
+        Y: -285322624
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 143.02458, y: -28.532263}
+      - {x: 143.02458, y: 57.75346}
+      - {x: -23.241547, y: 57.753403}
+      - {x: -23.241488, y: -28.532263}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &2134838317
@@ -7759,11 +8614,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134838314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:ElephantProjekt/Assets/Scenes/SampleScene.unity
   m_LocalPosition: {x: 0, y: -9.7, z: 0}
   m_LocalScale: {x: 10.700625, y: 1.1154689, z: 1}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
+>>>>>>> a98ebf25ef9305fbef46baef99947d4a15e14533:ElephantProjekt/Assets/Scenes/SampleScene 1.unity
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8988859198348635669
 PrefabInstance:
@@ -7846,6 +8706,11 @@ PrefabInstance:
         type: 3}
       propertyPath: jumpForce
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988859197452083606, guid: 984825babb44acf4ea3383c6a499e8e7,
+        type: 3}
+      propertyPath: groundLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 984825babb44acf4ea3383c6a499e8e7, type: 3}
