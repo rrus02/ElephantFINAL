@@ -9,7 +9,8 @@ public class FlyEnemy : MonoBehaviour
     public LayerMask groundLayer;
     private bool facingRight = true, groundTouch, roofTouch, righttouch;
     public float dirX = 1, dirY = 0.25f;
-
+    public Animator animator;
+    float mx;
 
     void Start()
     {
@@ -66,5 +67,18 @@ public class FlyEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(rightCheck.transform.position, circleRadius);
         Gizmos.DrawWireSphere(roofCheck.transform.position, circleRadius);
         Gizmos.DrawWireSphere(groundCheck.transform.position, circleRadius);
+    }
+    private void FixedUpdate()
+    {
+        mx = Input.GetAxis("Horizontal");
+
+        if (Mathf.Abs(mx) > 0.05f)
+        {
+            animator.SetBool("groundtouch", true);
+        }
+        else
+        {
+            animator.SetBool("groundtouch", false);
+        }
     }
 }

@@ -14,13 +14,7 @@ public class EnemyPatrol : MonoBehaviour
 
     public LayerMask groundLayers;
 
-<<<<<<< HEAD
-
-
     public Transform GroundCheck;
-=======
-    public Transform groundCheck;
->>>>>>> 620dc73d949013a49bd8fb2a32b67214c5dc1ab9
 
     bool isFacingRight = true;
 
