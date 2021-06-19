@@ -5,7 +5,7 @@ public class FlyEnemy : MonoBehaviour
     public float speed, circleRadius;
 
     private Rigidbody2D EnemyRB;
-    public GameObject rightCheck, roofCheck, groundCheck, enemyCheck;
+    public GameObject rightCheck, roofCheck, groundCheck;
     public LayerMask groundLayer;
     private bool facingRight = true, groundTouch, roofTouch, rightTouch, enemyTouch;
     public float dirX = 1f, dirY = 0.25f;
@@ -30,7 +30,6 @@ public class FlyEnemy : MonoBehaviour
         rightTouch = Physics2D.OverlapCircle(rightCheck.transform.position, circleRadius, groundLayer);
         roofTouch = Physics2D.OverlapCircle(roofCheck.transform.position, circleRadius, groundLayer);
         groundTouch = Physics2D.OverlapCircle(groundCheck.transform.position, circleRadius, groundLayer);
-        enemyTouch = Physics2D.OverlapCircle(enemyCheck.transform.position, circleRadius, groundLayer);
         HitLogic();
     }
 
@@ -52,8 +51,6 @@ public class FlyEnemy : MonoBehaviour
         {
             dirY = 0.25f;
         }
-        if (enemyTouch)
-        { Flip(); }
 
     }
     void Flip()
