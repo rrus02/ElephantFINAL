@@ -69,6 +69,5 @@ public class FlyEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(rightCheck.transform.position, circleRadius);
         Gizmos.DrawWireSphere(roofCheck.transform.position, circleRadius);
         Gizmos.DrawWireSphere(groundCheck.transform.position, circleRadius);
-        Gizmos.DrawWireSphere(enemyCheck.transform.position, circleRadius);
     }
 }
